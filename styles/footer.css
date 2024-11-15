@@ -1,0 +1,14 @@
+footer{
+    color: aliceblue;
+    margin-top: 50px;
+    background-image: url('https://images.pexels.com/photos/932638/pexels-photo-932638.jpeg?cs=srgb&dl=pexels-blaque-x-264516-932638.jpg&fm=jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+
+.copy{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}

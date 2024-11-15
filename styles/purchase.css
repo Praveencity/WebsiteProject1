@@ -1,0 +1,46 @@
+body{
+    background-image: linear-gradient(rgba(72, 72, 72, 0.5), rgba(82, 82, 82, 0.5)), url('https://altaseamedia.s3.us-west-1.amazonaws.com/wp-content/uploads/2021/07/31133059/How-oceans-benefit.jpg');
+}
+
+.main {
+    padding: 2em;
+    max-width: 800px;
+    margin: 2em auto;
+    margin-top: 150px;
+    background-color: rgba(255, 255, 255, 0.704);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.main h2 {
+    color: #444;
+    margin-bottom: 1em;
+}
+.main p {
+    line-height: 1.6;
+    margin-bottom: 1.5em;
+}
+.main .purchase-details {
+    margin: 1em 0;
+}
+.main .purchase-details div {
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    color: #333;
+}
+.main .purchase-details .price1 {
+    color: #e67e22;
+}
+.main a {
+    display: inline-block;
+    margin-top: 2em;
+    padding: 1em 2em;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+.main a:hover {
+    background-color: #555;
+}

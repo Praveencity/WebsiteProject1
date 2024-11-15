@@ -1,0 +1,44 @@
+body{
+    background-image: url("../images/four seasons yacht-sept22-pr4.jpg");
+    background-size: cover;
+}
+
+.main {
+    padding: 2em;
+    max-width: 300px;
+    margin: 2em auto;
+    margin-top: 200px;
+    background-color: rgba(255, 255, 255, 0.687);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.main h1 {
+    text-align: center;
+    color: #1e1e1e;
+    margin-bottom: 1em;
+}
+.main form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.main form label {
+    color: #404040;
+}
+.main form input {
+    width: 100%;
+    padding: 0.75em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.main form input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 1em;
+    transition: background-color 0.3s;
+}
+.main form input[type="submit"]:hover {
+    background-color: #555;
+}
