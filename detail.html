@@ -13,7 +13,10 @@
     <link rel="stylesheet" href="styles/detail.css">
 
     <script>
-        
+        let confirm = document.getElementsByClassName('buy-now');
+        confirm.addEventListener('click',(e)=>{
+            confirm("Do you want to confirm!!")
+        })
     </script>
 </head>
 <body>
@@ -50,7 +53,7 @@
                     </ul>
                 </div>
                 <div class="product-buttons">
-                    <a href="purchase.html">Buy Now</a>
+                    <a href="purchase.html" class="buy-now">Buy Now</a>
                     <a href="#">Inquire</a>
                 </div>
             </div>
