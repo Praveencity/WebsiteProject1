@@ -12,18 +12,7 @@
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/detail.css">
 
-    <script>
-        document.addEventListener('DOMContentLoaded',()=>{
-            let buyButton = document.querySelector(".buy-now");
-            buyButton.addEventListener('click',(event)=>{
-                event.preventDefault();
-                let msg = window.confirm('Are you sure you want to Buy?')
-                if(msg){
-                    window.location.href = 'purchase.html';
-                }
-            })
-        })
-    </script>
+    <script src="javascript/detail.js"></script>
 </head>
 <body>
     <nav>
